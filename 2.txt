@@ -1,0 +1,10 @@
+print ("число")
+s = 0
+summa = 0
+while s == 0:
+    a = int(input())
+    if a >= 0:
+        summa += a 
+    else:
+        break
+print("сумма", summa)
