@@ -1,0 +1,7 @@
+k = int(input("стартовое число: ")) 
+proc = int(input("среднесуточное увеличение: ")) 
+days = int(input("количество дней для размножения: "))
+print ("День", "Популяция")
+for i in range(1, days + 1):
+    print(i, "  ", float(k))
+    k = k + k * (proc / 100)
