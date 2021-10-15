@@ -1,0 +1,6 @@
+speed = int(input("Какая скорость транспортного средства в км/ч? "))
+time = int(input("Сколько оно двигалось? "))
+print("Час", "Пройденное расстояние")
+for t in range(time):
+    distant = speed * (t+1)
+    print(t+1,"  ", distant)
